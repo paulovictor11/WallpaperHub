@@ -4,6 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_splash"
     tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_logo_wallpaper_hub"
+        android:contentDescription="@string/descLogo"
+        android:layout_width="200dp"
+        android:layout_height="250dp" />
 
 </RelativeLayout>

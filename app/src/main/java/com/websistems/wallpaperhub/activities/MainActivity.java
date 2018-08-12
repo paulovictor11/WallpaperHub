@@ -12,9 +12,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        startActivity(new Intent(this, HomeActivity.class));
-        finish();
+        Handler handler = new Handler();
+        handler.postDelayed(r, 3000);
     }
 
+    Runnable r = new Runnable() {
+        @Override
+        public void run() {
+            startActivity(new Intent(MainActivity.this, HomeActivity.class));
+            finish();
+        }
+    };
 }

@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">WallpaperHub</string>
+    <string name="app_name">Wallpaper Hub</string>
     <string name="descLogo">Wallpaper Hub Logo</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_favourites">Favourites</string>
+    <string name="nav_settings">Settings</string>
+
 </resources>
