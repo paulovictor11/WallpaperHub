@@ -7,4 +7,6 @@
     <color name="colorTitle">#CECECE</color>
     <color name="colorNavDefault">#8B8A8A</color>
     <color name="colorNavActive">#FAFAFA</color>
+    <color name="colorCategoryBackground">#BB363932</color>
+    <color name="colorWhite">#FFFFFF</color>
 </resources>

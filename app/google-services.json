@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "690442892897",
+    "firebase_url": "https://wallpaperapp-491e2.firebaseio.com",
+    "project_id": "wallpaperapp-491e2",
+    "storage_bucket": "wallpaperapp-491e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690442892897:android:23e26699ae4f17d0",
+        "android_client_info": {
+          "package_name": "com.websistems.wallpaperhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690442892897-6pqb20h7ane0d7so6m0477t5hmbih5qe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.websistems.wallpaperhub",
+            "certificate_hash": "83d7ad5b253469304b006771ca64a7ef54c98abc"
+          }
+        },
+        {
+          "client_id": "690442892897-td7vkcbqh8r2lbdmnfc527pmvgmjrg73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvyVst0WbyN8AZ05VZi93TSb64ETcY5Y4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690442892897-td7vkcbqh8r2lbdmnfc527pmvgmjrg73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
