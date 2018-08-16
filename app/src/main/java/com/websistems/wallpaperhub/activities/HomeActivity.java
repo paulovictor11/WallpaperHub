@@ -7,8 +7,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.google.android.gms.ads.MobileAds;
 import com.websistems.wallpaperhub.R;
+import com.websistems.wallpaperhub.fragments.FavouritesFragment;
 import com.websistems.wallpaperhub.fragments.HomeFragment;
+import com.websistems.wallpaperhub.fragments.SettingsFragment;
 
 public class HomeActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -18,6 +21,8 @@ public class HomeActivity extends AppCompatActivity implements BottomNavigationV
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        MobileAds.initialize(this, "ca-app-pub-7501591673955748~7254359982");
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
@@ -35,11 +40,11 @@ public class HomeActivity extends AppCompatActivity implements BottomNavigationV
                 break;
 
             case R.id.nav_fav:
-                fragment = new HomeFragment();
+                fragment = new FavouritesFragment();
                 break;
 
             case R.id.nav_set:
-                fragment = new HomeFragment();
+                fragment = new SettingsFragment();
                 break;
 
             default:

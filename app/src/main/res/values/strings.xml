@@ -7,5 +7,10 @@
     <string name="nav_settings">Settings</string>
     <string name="descImage">Categories Thumbnails</string>
     <string name="catName">Category Name</string>
+    <string name="not_signed_in">Oops! You have to sign in first…</string>
+    <string name="tease">Not Signed In Image</string>
+    <string name="user">User</string>
+    <string name="email">Email</string>
+    <string name="logout">Logout</string>
 
 </resources>
